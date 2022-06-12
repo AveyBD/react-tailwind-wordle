@@ -1,0 +1,19 @@
+{
+    "solutions": [
+      {"_id": 1, "word": "ninja"},
+      {"_id": 2, "word": "spade"},
+      {"_id": 3, "word": "pools"},
+      {"_id": 4, "word": "drive"},
+      {"_id": 5, "word": "relax"},
+      {"_id": 6, "word": "times"},
+      {"_id": 7, "word": "train"},
+      {"_id": 8, "word": "cores"},
+      {"_id": 9, "word": "pours"},
+      {"_id": 10, "word": "blame"},
+      {"_id": 11, "word": "banks"},
+      {"_id": 12, "word": "phone"},
+      {"_id": 13, "word": "bling"},
+      {"_id": 14, "word": "coins"},
+      {"_id": 15, "word": "hello"}
+    ]
+  }
