@@ -11,6 +11,7 @@ const Wordle = ({ ans }) => {
   return (
     <div>
       <h2>Hello Wordle!</h2>
+      <h3>{currentGuess}</h3>
     </div>
   );
 };
