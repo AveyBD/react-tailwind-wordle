@@ -1,4 +1,5 @@
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const useWordle = (ans) => {
   const [turn, setTurn] = useState(0);
@@ -14,8 +15,12 @@ const useWordle = (ans) => {
   const addNewGuess = () => {};
 
   //   handle key event
-  const handleKey = ({key}) => {
-    console.log(key);
+  const handleKey = ({ key }) => {
+    if (/^[A-Za-z]$/.test(key)) {
+      console.log(key);
+    } else {
+      toast.error("Only character input allowed!");
+    }
   };
 
   return { turn, currentGuess, guesses, isCorrent, handleKey };
