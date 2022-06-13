@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Wordle from "./components/Wordle";
 
 function App() {
   const [ans, setAns] = useState(null);
@@ -16,7 +17,7 @@ function App() {
       <nav className="border border-t-1 mt-2 border-b-1 border-gray-200">
         <h2 className="text-3xl font-bold text-center">ReactTail Wordle!</h2>
       </nav>
-      {ans && <h2>Solution is: {ans.word}</h2>}
+      {ans && <Wordle ans={ans}></Wordle>}
     </div>
   );
 }
