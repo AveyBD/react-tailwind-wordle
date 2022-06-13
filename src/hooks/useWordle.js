@@ -14,8 +14,8 @@ const useWordle = (ans) => {
   const addNewGuess = () => {};
 
   //   handle key event
-  const handleKey = () => {
-    console.log("Halum");
+  const handleKey = ({key}) => {
+    console.log(key);
   };
 
   return { turn, currentGuess, guesses, isCorrent, handleKey };
